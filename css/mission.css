@@ -1,0 +1,61 @@
+.bgmission{
+    background:url(../images/mission-img.jpg) no-repeat;
+}
+
+
+.contentCards{
+    display: flex;
+    justify-content: space-between!important;
+    margin-top: 40px;
+}
+
+.card{
+    max-width: 400px;
+}
+
+.card h4{
+    text-align: center;
+    color: #D0B07F
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.bodyCard{
+    max-width: 100%;
+    min-height: 350px;
+}
+
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 60%;
+    }
+
+
+    .card{
+        min-width: 100%;
+    }
+
+
+    .contentCards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bodyCard{
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .bgmission{
+        background-repeat: repeat-y;
+    }
+}
