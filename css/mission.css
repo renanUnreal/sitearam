@@ -1,63 +1,244 @@
-.bgmission{
-    background:url(../images/mission-img.jpg) no-repeat;
+.bgmission {
+    background: url(../images/bg-mission.jpg) repeat;
+
 }
 
+.titleMission {
+    color: #2081A4 !important;
+    font-size: 4.5rem !important
+}
 
-.contentCards{
+.missionContentImg{
+    min-width: 600px;
+}
+
+.missionContentImg img {
+    width: 100%;
+    height: auto!important;
+    margin-left: 40px;
+
+}
+
+.missionContent {
     display: flex;
-    justify-content: space-between!important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.missionContent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    height: 100%;
+
+}
+
+.missionContent2 h3{
+
+    font-size: 4.5rem !important;
+    color: #2081A4!important;
+}
+.missionContent2 h4{
+
+    font-size: 2.5rem !important;
     margin-top: 40px;
+    color: #A98049!important;
 }
 
 .card{
-    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-left: -100px;
+    background-color: #A98049;
+    border-radius: 20px;
+    margin-top: 40px;
 }
 
-.card h4{
-    text-align: center;
-    color: #D0B07F
-}
-
-.card img{
-    max-width: 100%;
-    height: auto;
+.cardImage img{
+    width: 200px;
+    margin-left: -100px;
+    margin-right: 20px;
     border-radius: 50%;
 }
 
-.bodyCard{
-    max-width: 100%;
-    min-height: 350px;
+.card p{
+    font-size: 1.6rem !important;
+    margin-right: 20px;
 }
 
+.content2CorpoL{
+width: 70%;
+min-width: 410px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+height: 100%;
+}
+
+.content2CorpoR{
+    width: 50%;
 
 
-@media (max-width:450px){
-
-    html{
-        font-size: 60%;
     }
 
+.missionContent p {
+    color: #6C727A !important;
+}
 
-    .card{
-        min-width: 100%;
-    }
+.missionContent b {
+    color: #A98049 !important;
+    
+}
 
-
-    .contentCards{
-        display: flex;
+@media only screen and (max-width: 600px) {
+    .missionContent {
         flex-direction: column;
     }
+    .missionContent2 {
+        flex-direction: column;
+    }
+    .content2CorpoL{
+        flex-direction: row;
+    }
+    .content2CorpoL h3{
+        margin-right: 40px;
+    }
+    .content2CorpoL{
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .content2CorpoL h3{
+        margin-right: 40px;
+    }
 
-    .bodyCard{
-        min-height: 200px;
-        display: flex;
+    .content2CorpoR{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin: 0px;
+        width: 400px;
+    }
+    .card{
+        margin-left: 0;
+        flex-direction: column;
+        max-width: 360px!important;
     }
 
-    .bgmission{
-        background-repeat: repeat-y;
+    .cardImage img{
+        width: 150px;
+        margin: 20px 0px;
+        border-radius: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .missionContent {
+        flex-direction: column;
+    }
+    .missionContent2 {
+        flex-direction: column;
+    }
+    .content2CorpoL{
+        flex-direction: row;
+    }
+    .content2CorpoL h3{
+        margin-right: 40px;
+    }
+    .content2CorpoL{
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .content2CorpoL h3{
+        margin-right: 40px;
+    }
+    
+    .content2CorpoR{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        width: 600px;
+    }
+    .card{
+        margin-left: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .missionContent {
+        flex-direction: column;
+    }
+    .missionContent2 {
+        flex-direction: column;
+    }
+    .content2CorpoL{
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .content2CorpoL h3{
+        margin-right: 40px;
+    }
+
+    .content2CorpoR{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .missionContent {
+        flex-direction: column;
+    }
+    .missionContent2 {
+        flex-direction: column;
+
+    }
+    .content2CorpoL{
+        flex-direction: row;
+    }
+    .content2CorpoL h3{
+        margin-right: 40px;
+    }
+    .content2CorpoL{
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+
+    
+    }
+    .content2CorpoL h3{
+        margin-right: 40px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .missionContent {
+        flex-direction: row;
+    }
+    .missionContent2 {
+        flex-direction: row;
+    }
+    .content2CorpoL{
+        flex-direction: column;
     }
 }
