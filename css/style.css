@@ -239,7 +239,8 @@ section{
     background:url(../images/home-img.jpg) no-repeat;
 }
 .bgwhoweare{
-    background:url(../images/who-we-are-img.jpg) no-repeat;
+    /* background:url(../images/who-we-are-img.jpg) no-repeat; */
+    background-color: #D0B07F;
 }
 
 
@@ -362,7 +363,7 @@ section{
 @media (max-width:991px){
 
     html{
-        font-size: 55%;
+        font-size: 45%;
     }
 
     .header{
