@@ -28,19 +28,28 @@
 }
 .missionContent2 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 110%;
+    justify-content: space-between;
+    width: 100%;
     height: 100%;
 
 }
 
 .missionContent2 h3{
-
     font-size: 4.5rem !important;
     color: #2081A4!important;
 }
+
+.titleMission2{
+    font-size: 4.5rem !important;
+    color: #2081A4!important;
+}
+
+.titleMission2 h4{
+    font-size: 2.5rem !important;
+    margin-top: 40px;
+    color: #A98049!important;
+}
+
 .missionContent2 h4{
 
     font-size: 2.5rem !important;
@@ -146,6 +155,9 @@ height: 100%;
     }
     .missionContent2 {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
     .content2CorpoL{
         flex-direction: row;
@@ -153,25 +165,9 @@ height: 100%;
     .content2CorpoL h3{
         margin-right: 40px;
     }
-    .content2CorpoL{
-        flex-direction: row;
-        margin-top: 40px;
-        justify-content: center;
-        align-items: center;
-    }
-    .content2CorpoL h3{
-        margin-right: 40px;
-    }
-    
-    .content2CorpoR{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-        width: 600px;
-    }
-    .card{
-        margin-left: 50px;
+    .content2CorpoL h4{
+        width: 100%;
+        text-align: left;
     }
 }
 
@@ -182,22 +178,24 @@ height: 100%;
     }
     .missionContent2 {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
     .content2CorpoL{
         flex-direction: row;
-        margin-top: 40px;
-        justify-content: center;
-        align-items: center;
     }
     .content2CorpoL h3{
         margin-right: 40px;
     }
-
+    .content2CorpoL h4{
+        width: 100%;
+        text-align: left;
+        font-size: 3rem!important;
+    }
     .content2CorpoR{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
+        width: 500px;
+        margin-left: 300px;
     }
 }
 
@@ -208,6 +206,9 @@ height: 100%;
     }
     .missionContent2 {
         flex-direction: column;
+        
+        width: 110%;
+        
 
     }
     .content2CorpoL{
@@ -216,18 +217,15 @@ height: 100%;
     .content2CorpoL h3{
         margin-right: 40px;
     }
-    .content2CorpoL{
-        flex-direction: row;
-        margin-top: 40px;
-        justify-content: center;
-        align-items: center;
-        max-width: 400px;
+    .content2CorpoL h4{
+        width: 100%;
+        text-align: left;
+    }
+    .content2CorpoR{
+        width: 600px;
+        margin-left: 200px;
+    }
 
-    
-    }
-    .content2CorpoL h3{
-        margin-right: 40px;
-    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -237,8 +235,15 @@ height: 100%;
     }
     .missionContent2 {
         flex-direction: row;
+        align-items: flex-start;
     }
     .content2CorpoL{
         flex-direction: column;
+        max-width: 600px;
+    }
+
+    .content2CorpoR{
+        width: 700px;
+        margin-left: 0;
     }
 }
