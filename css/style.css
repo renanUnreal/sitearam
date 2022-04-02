@@ -256,7 +256,7 @@ section{
 .imageHomeLogo{
     width: 18rem;
     height: auto;
-    margin-bottom: 40px;
+    
 }
 
 .home .content{
@@ -419,6 +419,9 @@ section{
 
     .home .content p{
         font-size: 1.5rem;
+    }
+    .imageHomeLogo{
+        margin-bottom: 40px;
     }
 
 }
