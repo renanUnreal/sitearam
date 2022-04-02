@@ -1,1 +1,1 @@
-window.location.replace("/pt");   
+window.location.replace("/pt/");   
