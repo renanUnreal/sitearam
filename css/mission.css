@@ -8,9 +8,13 @@ display: flex;
 width: 100%;
 }
 
+.spacer1{
+    text-align: justify;
+}
+
 .titleMission {
     color: #2081A4 !important;
-    font-size: 3rem !important
+    font-size: 3rem !important;
 }
 
 .missionContentImg{
@@ -85,6 +89,7 @@ width: 100%;
 .card p{
     font-size: 1.6rem !important;
     margin-right: 20px;
+    text-align: justify;
 }
 
 .content2CorpoL{

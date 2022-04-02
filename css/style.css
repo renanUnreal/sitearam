@@ -264,7 +264,7 @@ section{
 }
 
 .home .content h3{
-    font-size: 6rem;
+    font-size: 3rem !important;
     text-transform: uppercase;
     color:#D0B07F;
 }
@@ -272,7 +272,11 @@ section{
 .home .content h4{
     font-size: 2.5rem;
     text-transform: uppercase;
+    text-align: justify;
     color:#fff;
+}
+.home .content .subHome{
+    font-size: 1.8rem!important;
 }
 
 .home .content p{
