@@ -3,9 +3,14 @@
 
 }
 
+.MVV{
+display: flex;
+width: 100%;
+}
+
 .titleMission {
     color: #2081A4 !important;
-    font-size: 4.5rem !important
+    font-size: 3rem !important
 }
 
 .missionContentImg{
@@ -24,6 +29,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: 600px;
+
 
 }
 .missionContent2 {
@@ -62,10 +69,10 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    margin-left: -100px;
     background-color: #A98049;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-bottom: 40PX;
+    
 }
 
 .cardImage img{
@@ -92,8 +99,6 @@ height: 100%;
 
 .content2CorpoR{
     width: 50%;
-
-
     }
 
 .missionContent p {
@@ -107,6 +112,9 @@ height: 100%;
 
 @media only screen and (max-width: 600px) {
     .missionContent {
+        flex-direction: column;
+    }
+    .MVV{
         flex-direction: column;
     }
     .missionContent2 {
@@ -153,6 +161,9 @@ height: 100%;
     .missionContent {
         flex-direction: column;
     }
+    .MVV{
+        flex-direction: column;
+    }
     .missionContent2 {
         flex-direction: column;
         justify-content: center;
@@ -174,6 +185,9 @@ height: 100%;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .missionContent {
+        flex-direction: column;
+    }
+    .MVV{
         flex-direction: column;
     }
     .missionContent2 {
@@ -202,6 +216,9 @@ height: 100%;
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .missionContent {
+        flex-direction: column;
+    }
+    .MVV{
         flex-direction: column;
     }
     .missionContent2 {
@@ -233,6 +250,13 @@ height: 100%;
     .missionContent {
         flex-direction: row;
     }
+    .MVV{
+        flex-direction: row;
+    }
+    
+.card{
+    margin-left: 180px;    
+}
     .missionContent2 {
         flex-direction: row;
         align-items: flex-start;
