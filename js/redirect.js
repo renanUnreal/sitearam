@@ -1,1 +1,1 @@
-window.location.replace("/aram-git/pt");   
+window.location.replace("/pt");   
